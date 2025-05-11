@@ -1,4 +1,3 @@
-```ts
 <script lang="ts">
   // Import necessary hooks and components
   import { hasEnoughStorageSpace, isIndexedDBSupported, writeData, openDatabase, readAllData, deleteData } from '@/interface/hooks/BackgroundDataLoader';
@@ -340,4 +339,3 @@
     <p>Selected Category: {selectedCategory}</p>
   </div>
 {/if}
-```
